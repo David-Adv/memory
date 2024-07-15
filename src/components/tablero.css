@@ -1,0 +1,10 @@
+.Tablero{
+    /* width:80vw; */
+    display: grid;
+    gap: 1rem;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* background-color: red; */
+    grid-template-columns: repeat(4, 1fr);
+
+}
